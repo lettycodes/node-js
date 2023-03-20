@@ -1,0 +1,22 @@
+### get admin 
+GET http://localhost:3000/admin
+### get usuários
+GET http://localhost:3000/usuarios
+### get admin com id
+GET http://localhost:3000/admin/250
+### get usuário com id
+GET http://localhost:3000/usuarios/250
+### acessando via post
+POST http://localhost:3000/admin
+
+Content-Type: application/json
+{
+    "login": "leticiasilva",
+    "senha": "123456"
+}
+### acessando via patch
+PATCH http://localhost:3000/admin/250
+### acessando via put
+PUT http://localhost:3000/admin/250
+### acessando via delete
+DELETE http://localhost:3000/admin/250

@@ -1,0 +1,12 @@
+{
+  "name": "cursonode",
+  "version": "1.0.0",
+  "description": "curso",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Isso é um teste\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lele",
+  "license": "MIT"
+}
